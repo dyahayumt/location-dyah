@@ -1,0 +1,26 @@
+head
+  title Location
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
+body(style='\
+  margin-top: 100px;\
+  margin-left: 250px;\
+  margin-bottom: 100px;\
+  margin-right: 100px;\
+  border-top: 40px;\
+  border-right: 40px;\
+  border-left: 40px;\
+  border-bottom: 40px;\
+  ')
+.container
+h1 Address Locator
+<hr size="12px">
+  form(action="/" method="POST")
+    h4  Enter an Address and Press the Button
+    input#address.form-control(type='text', placeholder='', name='address', class style='width: 526px; height: 130px;')
+    br
+    input.btn.btn-secondary(type='submit', value='Get My Location')
+    br
+    br
+    p #{hasil}
+    p #{lat}
+    p #{lng}
