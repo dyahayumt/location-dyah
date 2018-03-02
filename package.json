@@ -1,5 +1,5 @@
 {
-  "name": "geolocation-dyah",
+  "name": "geolocator-dyah",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dyahayumt/geolocation-dyah.git"
+    "url": "git+https://github.com/dyahayumt/geolocator-dyah.git"
   },
   "keywords": [
     "location"
@@ -27,7 +27,7 @@
   "author": "damt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dyahayumt/geolocation-dyah/issues"
+    "url": "https://github.com/dyahayumt/geolocator-dyah/issues"
   },
-  "homepage": "https://github.com/dyahayumt/geolocation-dyah#readme"
+  "homepage": "https://github.com/dyahayumt/geolocator-dyah#readme"
 }
